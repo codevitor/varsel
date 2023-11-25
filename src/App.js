@@ -8,7 +8,6 @@ import {
 } from "react";
 import { useNormalizedMouseRef } from "./hooks";
 import { Canvas } from "@react-three/fiber";
-import { useTweaks } from "use-tweaks";
 
 import { ParticlePlane } from "./particlePlane";
 import { Engine } from "./engine";

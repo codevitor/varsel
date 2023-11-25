@@ -1,14 +1,12 @@
 import { useRef, useEffect, useLayoutEffect } from "react";
 import * as THREE from "three";
 import { useFrame } from "@react-three/fiber";
-import { useTweaks } from "use-tweaks";
 
 import { useNormalizedMouseRef } from "../hooks";
 import { generateVertices } from "./generateVertices";
 import { vertex } from "./vertex";
 import { fragment } from "./fragment";
 
-const subdivisions = 49;
 const uniforms = {
   // Tweaks
   uTime: { value: 0 },
